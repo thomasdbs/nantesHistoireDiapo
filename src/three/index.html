@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Diaporama sur les archives de Nantes</title>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline" rel="stylesheet">
+    <style media="screen">
+
+    body { background-color: #000000 }
+    img { display: none; }
+    .eye{ width: 20px; height: 8px; background-color: #eee; border-radius:0px 0px 20px 20px; position: relative; top: 40px; left: 10px; box-shadow:  40px 0px 0px 0px #eee; }
+    .head{ -webkit-backface-visibility: hidden; position: relative; margin: -250px auto; width: 80px; height: 80px; background-color: #000000; border-radius:50px; box-shadow: inset -4px 2px 0px 0px #eee; -webkit-animation:node 1.5s infinite alternate; -webkit-animation-timing-function:ease-out; }
+    .body{ position: relative; margin: 90px auto; width: 140px; height: 120px; background-color: #000000; border-radius: 50px/25px ; box-shadow: inset -5px 2px 0px 0px #eee; -webkit-animation:node2 1.5s infinite alternate; -webkit-animation-timing-function:ease-out; }
+    @-webkit-keyframes node { 0%{ top:0px; } 50%{ top:10px; } 100% { top:0px;} }
+    @-webkit-keyframes node2 { 0%{ top:-5px; } 50%{ top:10px; } 100% { top:-5px;} }
+    .loading{ -webkit-backface-visibility: hidden; margin: 60px auto; width: 180px; height: 180px; background-color: #000000; border-radius: 0px 0px 50px 50px; position: relative; z-index: -1; left: 0%; top: 20%; overflow: hidden; }
+    .hands{ -webkit-backface-visibility: hidden; margin-top: 140px; width: 120px;height: 120px; position: absolute; background-color: #000000; border-radius:20px; box-shadow:-1px -4px 0px 0px #eee; -webkit-transform:rotate(45deg); top:75%;left: 16%; z-index: 1; -webkit-animation:node2 1.5s infinite alternate; -webkit-animation-timing-function:ease-out; }
+    .load{  text-align: center; color: #ffffff;}
+
+    </style>
+</head>
+<body>
+
+    <h1 class="texte auteur white">Thomas Dubois</h1>
+    <p class="texte competence white">Présentation orale</p>
+
+    <div class="loading">
+        <div class="hands"></div>
+        <div class="body"></div>
+        <div class="head">
+            <div class="eye"></div>
+        </div>
+    </div>
+
+    <div class="navbar fixed">
+
+        <div class="psoload index pointer" id="iconeMenu">
+            <div class="center"></div>
+            <div class="inner"></div>
+        </div>
+        <div class="menu display">
+            <div class="menu-content">
+                <div class="menu-item pointer projet1"><h3 class="white menuTitle"></h3></div>
+                <div class="menu-item pointer projet2"><h3 class="white menuTitle"></h3></div>
+                <div class="menu-item pointer projet3"><h3 class="white menuTitle"></h3></div>
+                <div class="menu-item pointer projet4"><h3 class="white menuTitle"></h3></div>
+                <div class="menu-item pointer projet5"><h3 class="white menuTitle"></h3></div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="projet">
+        <h2 class="texte nomProjet white"></h2>
+        <div class="middle" id="projectDetail">
+            <p class="white center pointer" id="accrocheProjet"></p>
+            <div id="projectDescription" class="white display"></div>
+        </div>
+    </div>
+
+    <div class="liens index">
+        <img id="next" class="next slide pointer" src="img/next.png" alt="Next slide">
+        <img id="previous" class="previous slide pointer" src="img/previous.png" alt="Previous slide">
+        <a href="https://thomasdbs.github.io/nantesHistoire/" target="_blank" title="Github profil">
+            <img class="github" src="img/github.png" alt="Logo github">
+        </a>
+    </div>
+    <div id="colorPlayer" class="loader7 pointer index"></div>
+</body>
+</html>
