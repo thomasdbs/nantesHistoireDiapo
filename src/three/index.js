@@ -30,7 +30,9 @@ const htmlBalise = document.querySelector('html');
 
 let interval = null;
 let numProjet = 1;
-console.log(window.location.pathname);
+// const pathname = window.location.pathname;
+// const fontSize = pathname.substr(-2,2);
+// console.log(window.location.pathname);
 
 let animationParticles = null;
 
