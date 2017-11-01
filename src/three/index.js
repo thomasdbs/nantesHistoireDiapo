@@ -37,13 +37,13 @@ const projets = {
     '1': [
         "Nantes - Pont d'Orléans",
         "<h4>Le concept<br>+</h4>",
-        "<div style='margin-left:15%;margin-right:15%;width:70%'><h4 style='text-align:center;'>Informations intéressantes mais mal exploitées<br />Pas d'intéractivité<br />Perte de temps pour l'internaute</h4><img alt='' src='img/archive.PNG' style='width:100%;border-radius:5px;'/></div>",
+        "<div style='margin-left:15%;margin-right:15%;width:70%'><h4 style='text-align:center;'>Informations intéressantes mais mal exploitées<br />Pas d'intéractivité<br />Perte de temps pour l'internaute</h4><img alt='' src='img/archive.PNG' style='width:100%;border-radius:5px;max-width:590px'/></div>",
         "Le concept"
     ],
     '2': [
         "Nantes - Pont d'Orléans",
         "<h4>Le pont d'Orléans<br>+</h4>",
-        "<div style='margin-left:15%;margin-right:15%;width:70%'><h4 style='text-align:center;'>Nombreuses dates<br />Qualité et quantité d'images<br />Travaux sur le pont tout au long de son histoire</h4><img alt='' src='img/archive.PNG' style='width:100%;border-radius:5px;'/></div>",
+        "<div style='margin-left:15%;margin-right:15%;width:70%'><h4 style='text-align:center;'>Nombreuses dates<br />Qualité et quantité d'images<br />Travaux sur le pont tout au long de son histoire</h4><img alt='' src='img/archive.PNG' style='width:100%;border-radius:5px;max-width:590px'/></div>",
         "Le pont d'Orléans"
     ],
     '3': [
